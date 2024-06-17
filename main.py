@@ -57,7 +57,7 @@ def main():
             info_url = driver.current_url
             if info_url == 'https://signup.ru.leagueoflegends.com/ru/signup/download':
                 print('Аккаунт зарегестрирован!')
-                with open('C:\\Users\\Nabyne\\Desktop\\AutoRegLegueOfLegend\\good.txt', 'a') as f:
+                with open('PATHGOODTXT', 'a') as f:
                     f.write(f'{random_name}:{random_name}.123\r')
             driver.close()
             driver.quit()
