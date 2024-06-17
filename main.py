@@ -21,7 +21,7 @@ def main():
             #    options.add_argument('--disable-application-cache')
 
             driver = webdriver.Chrome(
-            executable_path=f'C:/Users/Nabyne/Desktop/AutoRegLegueOfLegend/chromedeiver/chromedriver.exe')
+            executable_path=f'PATHDRIVER')
             driver.delete_all_cookies()
 
             random_name = [random.choice(string.ascii_lowercase + string.digits if i != 5 else string.ascii_uppercase)
